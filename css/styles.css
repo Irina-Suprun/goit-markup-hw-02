@@ -1,0 +1,66 @@
+:root {
+    --primary-text-color: #757575;
+    --title-hero-text-color: #FFFFFF;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --hero-bg-color: #2F303A;
+    --section-bg:#F5F4FA;
+}
+
+
+/* цвет основного текста #212121*/
+/* цвет доп text #757575, #FFFFFF*/
+/* activ #2196F3 */
+/* logo #2196F3 #000000 */
+body {
+color: var(--primary-text-color);
+background-color: var(--primary-white-color);
+}
+.list {
+    list-style: none;
+}
+.page-header {
+
+}
+.logo {
+color: ;
+}
+.site-nav .link:hover,
+.site-nav .link:focus
+ {
+    color: var(--accent-color);
+}
+.site-nav .link {
+color: var(--title-text-color);
+}
+.site-nav .link.current {
+color: var(--accent-color);
+}
+/* hero */
+.hero {
+background-color: var(--hero-bg-color);
+}
+.hero-title {
+    color: var(--title-hero-text-color);
+}
+.section-title {
+    color: var(--title-text-color);
+}
+/* .work-list-title {
+    color: var(--title-text-color);
+} */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+/* button */
+.button {
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+}
+
+/* Page Portfolio */
+.button-filter {
+    color: var(--title-text-color);
+    background-color: var(--section-bg);
+}
