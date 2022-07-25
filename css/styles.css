@@ -6,13 +6,29 @@
   --primary-white-color: #ffffff;
   --hero-bg-color: #2f303a;
   --section-bg: #f5f4fa;
+  --border-color: #EEEEEE;
+  --line-color: #ECECEC;
 }
 
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-style: 14px;
+  letter-spacing: 0.03em;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .list {
   list-style: none;
@@ -73,6 +89,7 @@ body {
 }
 /* button */
 .button {
+  cursor: pointer;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: "Roboto";
@@ -84,9 +101,6 @@ body {
   letter-spacing: 0.06em;
 }
 /* Преимущества */
-.feature-title {
-  color: var(--title-text-color);
-}
 .feature-item {
 }
 .feature-item .title {
@@ -173,7 +187,8 @@ body {
   letter-spacing: 0.03em;
 }
 .button-filter:hover {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 .portfolio-section h2 {
   color: var(--title-text-color);
